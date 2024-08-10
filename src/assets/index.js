@@ -16,11 +16,16 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import php from "./tech/php.png"
 import mysql from "./tech/mysql.png"
+import ci from "./tech/ci.png";
+import post from "./tech/post.png";
+import laravel from "./tech/laravel.png";
 import wordpress from "./tech/wordpress.png"
 import shopify from "./company/shopify.png";
 import website from "./website.png"
 
 import mbs from "./company/mbs.png"
+import alb from "./company/alb.png"
+import smsol from "./company/smsol.png"
 
 
 import port from "./project/port.png";
@@ -35,6 +40,16 @@ import mbsw from "./portfolio/mbsw.png"
 import uma from "./portfolio/uma.png"
 import siba from "./portfolio/siba.png"
 import promo from "./portfolio/promo.png"
+import inven from "./portfolio/inven.png"
+import karma from "./portfolio/karma.png"
+import hda from "./portfolio/hda.png"
+import tea from "./portfolio/tea.png"
+import tefal from "./portfolio/tefal.png"
+
+import danfit from "./freelance/danfit.png"
+import fashionup from "./freelance/fashionup.png"
+import pragya from "./freelance/pragya.png"
+import winquest from "./freelance/winquest.png"
 
 
 
@@ -59,8 +74,13 @@ export {
   tailwind,
   threejs,
   shopify,
+  ci,
+  post,
+  laravel,
 
   mbs,
+  alb,
+  smsol,
 
   website,
   mov,
@@ -74,6 +94,16 @@ export {
   uma,
   siba,
   mbsw,
-  promo
+  promo,
+  inven,
+  karma,
+  hda,
+  tea,
+  tefal,
+
+  danfit,
+  pragya,
+  fashionup,
+  winquest,
 
 };

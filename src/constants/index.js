@@ -10,6 +10,8 @@ import {
     tailwind,
     git,
     shopify,
+    post,
+    laravel,
 
 
     mov,
@@ -20,9 +22,12 @@ import {
 
     threejs,
     mbs,
+    alb,
+    smsol,
     mysql,
     wordpress,
     php,
+    ci,
 
     contem,
     raga,
@@ -30,6 +35,16 @@ import {
     siba,
     mbsw,
     promo,
+    inven,
+    karma,
+    hda,
+    tea,
+    tefal,
+
+    danfit,
+    pragya,
+    fashionup,
+    winquest,
   } from "../assets";
   
   export const navLinks = [
@@ -47,6 +62,10 @@ import {
       id: "work",
       title: "Projects",
     },
+    {
+      id: "freelace",
+      title: "Freelance",
+    },
     
     {
       id: "contact",
@@ -56,11 +75,11 @@ import {
   
   const services = [
     {
-      title: "Web Development",
+      title: "Websites",
       icon: web,
     },
     {
-      title: "React Development",
+      title: "Web Aplications",
       icon: mobile,
     },
     {
@@ -75,12 +94,21 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "ci",
+      icon: ci,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "php",
+      icon: php,
+    },
+    
+    {
+      name: "mysql",
+      icon: mysql,
+    },
+    {
+      name: "PostgreSQL",
+      icon: post,
     },
     {
       name: "JavaScript",
@@ -92,43 +120,73 @@ import {
       icon: reactjs,
     },
     {
-      name: "php",
-      icon: php,
+      name: "Laravel",
+      icon: laravel,
+    },
+  
+    {
+      name: "HTML 5",
+      icon: html,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "mysql",
-      icon: mysql,
+      name: "CSS 3",
+      icon: css,
     },
     {
       name: "Wordpress",
       icon: wordpress,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Tailwind CSS",
+      icon: tailwind,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "shopify",
-      icon: shopify,
+      name: "Three JS",
+      icon: threejs,
     },
+    
+
+   
 
   ];
   
   const experiences = [
     {
+      title: "Web & Laravel Developer",
+      company_name: "SM Solutions",
+      icon: smsol,
+      iconBg: "#9096ad",
+      date: " June 2024 - Present",
+      points: [
+        "Developing and maintaining web applications and Websites in MVC architecture to meet client and project requirements.",
+        "Developing and maintaining dynamic Websites and Web applications using Laravel(PHP), MySQL, JQuery, JavaScript and AJAX.",
+        "Implementing responsive front-end interfaces with HTML, CSS, and Bootstrap to enhance user experience."
+  
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "Albatross Software Services Pvt. Ltd.",
+      icon: alb,
+      iconBg: "#9096ad",
+      date: " June 2023 - June 2024",
+      points: [
+        "Developing and maintaining web applications in MVC architecture to meet client and project requirements.",
+        "Developing and maintaining dynamic web applications using CodeIgniter(PHP), MySQL, PostgreSQL, JavaScript and AJAX.",
+        "Implementing responsive front-end interfaces with HTML, CSS, and Bootstrap to enhance user experience."
+  
+      ],
+    },
+    {
       title: "Web Developer",
       company_name: "MindBrew Studio",
       icon: mbs,
-      iconBg: "#383E56",
-      date: " August 2022 - Present",
+      iconBg: "#9ed2de",
+      date: " August 2022 - May,2023",
       points: [
         "Developing websites using HTML, CSS, JavaScript, and jQuery languages.",
         "Coded websites Back-End using PHP, and MySQL.",
@@ -143,6 +201,134 @@ import {
   ];
   
   const jobs = [
+
+    {
+      name: "Tefal",
+      description:
+        "Tefal India's Website is made to showcase their product and business. It has an admin panel as well as a dynamic frontend.",
+      tags: [
+        {
+          name: "Laravel",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JQuery",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MVC Architechture",
+          color: "green-text-gradient",
+        },
+
+      ],
+      image: tefal,
+      website_link: "#/",
+      role: "Development"
+    },
+
+    {
+      name: "Tea Garder Survey",
+      description:
+        "Tea Garder Survey is a web application by the Government of West Bengal.It made to digitalised data and working of tea garder management ",
+      tags: [
+        {
+          name: "Laravel",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JQuery",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MVC Architechture",
+          color: "green-text-gradient",
+        },
+
+      ],
+      image: tea,
+      website_link: "#/",
+      role: "Development"
+    },
+    {
+      name: "Karmasangbad",
+      description:
+        "Karmasangbad is a job portal by the Government of West Bengal. It has various functionalities like posting jobs, applying, scheduling interviews etc.",
+      tags: [
+        {
+          name: "PHP",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CodeIgniter",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JQuery",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MVC Architechture",
+          color: "green-text-gradient",
+        },
+
+      ],
+      image: karma,
+      website_link: "https://karmasangbad.wblabour.gov.in/",
+      role: "Development"
+    },
+
+    {
+      name: "HDA Water Billing System",
+      description:
+        "Water Billing System is a Web Application for the Haldia Development Authority. It has various users for officials & consumers. It will add new consumers, generate bills etc. ",
+      tags: [
+        {
+          name: "PHP",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CodeIgniter",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JQuery",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MVC Architechture",
+          color: "green-text-gradient",
+        },
+
+      ],
+      image: hda,
+      website_link: "#",
+      role: "Development"
+    },
+    
     {
       name: "Raga Interior",
       description:
@@ -174,6 +360,33 @@ import {
       website_link: "https://ragakitchen.com/",
       role: "Development"
     },
+    {
+      name: "Inventory System",
+      description:
+        "Inventory System is a web aplication for NKDA, this apliation build on CodeIgniter.This application have some users,it can take login details, input datas to server and show acroding to need.",
+      tags: [
+        {
+          name: "CodeIniter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "green-text-gradient",
+        }, {
+          name: "AJAX",
+          color: "blue-text-gradient",
+        },
+       
+      ],
+      image: inven,
+      website_link: "#",
+      role: "Development & Maintanence"
+    },
+
 
     {
       name: "Contemporary",
@@ -194,37 +407,6 @@ import {
       website_link: "https://contemporaryrealestate.ae/",
       role: "Development & Maintanence"
     },
-
-    {
-      name: "UMA Group",
-      description: "UMA Group website is display site of UMA Group.It build on HTML,CSS,Bootstrap,JavaScript and PHP.",
-      tags: [
-        {
-          name: "HTML",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Java Script",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "PHP",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Bootstrap",
-          color: "green-text-gradient",
-        },
-      ],
-      image: uma,
-      website_link: "https://umagroup.in/",
-      role: "Development"
-    },
-
     {
       name: "MindBrew Studio",
       description:
@@ -315,7 +497,36 @@ import {
       image: promo,
       website_link: "https://promoskope.com/",
       role: "Development & Maintanence"
-    }
+    },
+    {
+      name: "UMA Group",
+      description: "UMA Group website is display site of UMA Group.It build on HTML,CSS,Bootstrap,JavaScript and PHP.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Java Script",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "green-text-gradient",
+        },
+      ],
+      image: uma,
+      website_link: "https://umagroup.in/",
+      role: "Development"
+    },
 
 
   ];
@@ -411,5 +622,136 @@ import {
     },
 
   ];
+
+  const freelances = [
+    {
+      name: "Winquest Invoice App",
+      description:
+        "Winquest Invoice App a web application designed to provide comprehensive business solutions. The app allows users to create invoices, send payment reminders, manage payments, and efficiently handle student and teacher details.",
+      tags: [
+        {
+          name: "Laravel",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JQuery",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "HTML/CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "BootStrap",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Ajax",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: winquest,
+      source_code_link: "#",
+      website_link: "#",
+      role: "Development "
+    },
+
+    {
+      name: "FashionUp Website",
+      description:
+        "FashionUp a website dedicated to showcasing a brand's products and shop locations. The site is designed to provide a comprehensive view of the brand's offerings, helping customers easily discover and connect with the brand's physical stores.",
+      tags: [
+        {
+          name: "HTML/CSS",
+          color: "blue-text-gradient",
+        },
+         {
+          name: "PHP",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JS/JQuery",
+          color: "green-text-gradient",
+        },
+        {
+          name: "BootStrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fashionup,
+      source_code_link: "",
+      website_link: "https://fashionupretail.com/",
+      role: "Development "
+    },
+
+    {
+      name: "Danfit Studio",
+      description:
+        "Danfit Studio, a website designed to promote a dance studio and streamline the booking process for classes and events. The site aims to enhance the studio's online presence and make it easier for clients to engage with the studio's offerings",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+           {
+          name: "PHP",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JS/JQuery",
+          color: "green-text-gradient",
+        },
+        {
+          name: "BootStrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: danfit,
+      source_code_link: "",
+      website_link: "https://danfitstudio.com/",
+      role: "Development "
+    },
+
+    {
+      name: "Pragya Website",
+      description:
+        "Pragya, a portfolio website designed to showcase the work and expertise of an architect. The site highlights the architect's projects, skills, and professional accomplishments, serving as a comprehensive digital portfolio",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+           {
+          name: "PHP",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JS/JQuery",
+          color: "green-text-gradient",
+        },
+        {
+          name: "BootStrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pragya,
+      source_code_link: "",
+      website_link: "",
+      role: "Development "
+    },
+
+  ];
   
-  export { services, technologies, experiences, jobs, projects };
+  export { services, technologies, experiences, jobs, projects, freelances };

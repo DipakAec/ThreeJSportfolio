@@ -7,6 +7,7 @@ import Experience from './Experience';
 import Works from './Works';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
+import Freelance from './Freelance';
 
 export {
   Hero,
@@ -16,6 +17,7 @@ export {
   Experience,
   Works,
   Portfolio,
+  Freelance,
   Contact,
   EarthCanvas, 
   BallCanvas, 
