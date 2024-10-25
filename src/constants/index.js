@@ -40,11 +40,14 @@ import {
     hda,
     tea,
     tefal,
+    lmhi,
 
     danfit,
     pragya,
     fashionup,
     winquest,
+    iit_roorki,
+
   } from "../assets";
   
   export const navLinks = [
@@ -57,16 +60,14 @@ import {
       id: "portfolio",
       title: "Works",
     },
-
+    {
+      id: "freelance",
+      title: "Freelance",
+    },
     {
       id: "work",
       title: "Projects",
-    },
-    {
-      id: "freelace",
-      title: "Freelance",
-    },
-    
+    },  
     {
       id: "contact",
       title: "Contact",
@@ -235,6 +236,38 @@ import {
     },
 
     {
+      name: "LMHI",
+      description:
+        "LMHI's Website is made to showcase their research, country NPR, and other details. It has an admin panel as well as a dynamic front end.",
+      tags: [
+        {
+          name: "Laravel",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JQuery",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MVC Architechture",
+          color: "green-text-gradient",
+        },
+
+      ],
+      image: lmhi,
+      website_link: "#/",
+      role: "Development"
+    },
+
+    {
       name: "Tea Garder Survey",
       description:
         "Tea Garder Survey is a web application by the Government of West Bengal.It made to digitalised data and working of tea garder management ",
@@ -329,37 +362,37 @@ import {
       role: "Development"
     },
     
-    {
-      name: "Raga Interior",
-      description:
-        "Raga Interior website is a Display Website build on HTML,CSS,JS and PHP,MySQL.In this site they display their works ,user can ask for services.",
-      tags: [
-        {
-          name: "HTML",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Java Script",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "PHP",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "MySQL",
-          color: "green-text-gradient",
-        },
+    // {
+    //   name: "Raga Interior",
+    //   description:
+    //     "Raga Interior website is a Display Website build on HTML,CSS,JS and PHP,MySQL.In this site they display their works ,user can ask for services.",
+    //   tags: [
+    //     {
+    //       name: "HTML",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "CSS",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Java Script",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "PHP",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "MySQL",
+    //       color: "green-text-gradient",
+    //     },
 
-      ],
-      image: raga,
-      website_link: "https://ragakitchen.com/",
-      role: "Development"
-    },
+    //   ],
+    //   image: raga,
+    //   website_link: "https://ragakitchen.com/",
+    //   role: "Development"
+    // },
     {
       name: "Inventory System",
       description:
@@ -388,25 +421,25 @@ import {
     },
 
 
-    {
-      name: "Contemporary",
-      description:
-        "Contemporary Real Estate Brokrage is a Website build on WordPress.This is a UAE based brokrage company.In this site they showcase there popertys and people can see and contact them to buy.",
-      tags: [
-        {
-          name: "WordPress",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Elementor",
-          color: "green-text-gradient",
-        },
+    // {
+    //   name: "Contemporary",
+    //   description:
+    //     "Contemporary Real Estate Brokrage is a Website build on WordPress.This is a UAE based brokrage company.In this site they showcase there popertys and people can see and contact them to buy.",
+    //   tags: [
+    //     {
+    //       name: "WordPress",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Elementor",
+    //       color: "green-text-gradient",
+    //     },
        
-      ],
-      image: contem,
-      website_link: "https://contemporaryrealestate.ae/",
-      role: "Development & Maintanence"
-    },
+    //   ],
+    //   image: contem,
+    //   website_link: "https://contemporaryrealestate.ae/",
+    //   role: "Development & Maintanence"
+    // },
     {
       name: "MindBrew Studio",
       description:
@@ -438,36 +471,36 @@ import {
       role: "Development & Maintanence"
     },
 
-    {
-      name: "Madame Sibarita",
-      description:
-        "Madame Sibarita website is build on WordPress ,It's a wo-commerce site.This SIte comes to us with some prblems. Some pages were brocken,Animation distrubed.Currently we maintain this site",
-      tags: [
-        {
-          name: "WordPress",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "HTML",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Java Script",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Gsap",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: siba,
-      website_link: "https://madamesibarita.com/",
-      role: "Maintanence"
-    },
+    // {
+    //   name: "Madame Sibarita",
+    //   description:
+    //     "Madame Sibarita website is build on WordPress ,It's a wo-commerce site.This SIte comes to us with some prblems. Some pages were brocken,Animation distrubed.Currently we maintain this site",
+    //   tags: [
+    //     {
+    //       name: "WordPress",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "HTML",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "CSS",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Java Script",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "Gsap",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: siba,
+    //   website_link: "https://madamesibarita.com/",
+    //   role: "Maintanence"
+    // },
     {
       name: "Ant Promoskope",
       description:
@@ -655,6 +688,41 @@ import {
         },
       ],
       image: winquest,
+      source_code_link: "#",
+      website_link: "#",
+      role: "Development "
+    },
+    {
+      name: "IIT Roorkee Equipment Booking App",
+      description:
+        "This project is for booking equipment booking for the Mechanical Department of IIT Roorkee. Users can log in and see the date and time slot available for any equipment and book. After approval by the admin, a Mail with booking details will be sent to the user.",
+      tags: [
+        {
+          name: "Laravel",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JQuery",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "HTML/CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "BootStrap",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Ajax",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: iit_roorki,
       source_code_link: "#",
       website_link: "#",
       role: "Development "

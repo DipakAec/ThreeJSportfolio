@@ -45,11 +45,13 @@ import karma from "./portfolio/karma.png"
 import hda from "./portfolio/hda.png"
 import tea from "./portfolio/tea.png"
 import tefal from "./portfolio/tefal.png"
+import lmhi from "./portfolio/lmhi.png"
 
 import danfit from "./freelance/danfit.png"
 import fashionup from "./freelance/fashionup.png"
 import pragya from "./freelance/pragya.png"
 import winquest from "./freelance/winquest.png"
+import iit_roorki from "./freelance/iit_roorki.png"
 
 
 
@@ -100,10 +102,13 @@ export {
   hda,
   tea,
   tefal,
+  lmhi,
+
 
   danfit,
   pragya,
   fashionup,
   winquest,
+  iit_roorki,
 
 };
