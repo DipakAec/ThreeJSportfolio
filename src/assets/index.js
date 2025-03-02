@@ -33,6 +33,7 @@ import porthtml from "./project/porthtml.png";
 import mov from "./project/mov.png";
 import weather from "./project/weather.png";
 import bmi from "./project/bmi.png";
+import fashion from "./project/fashion_next.png";
 
 import contem from "./portfolio/contem.png"
 import raga from "./portfolio/raga.png"
@@ -53,6 +54,12 @@ import pragya from "./freelance/pragya.png"
 import winquest from "./freelance/winquest.png"
 import iit_roorki from "./freelance/iit_roorki.png"
 
+import danfit_client from "./client/danfit.png"
+import fashionup_client from "./client/fashionup.png"
+import pragya_client from "./client/pragya.png"
+import winquest_client from "./client/winquest.png"
+import iit_roorki_client from "./client/iitr.png"
+import vidmate_client from "./client/vidmate.png"
 
 
 
@@ -90,6 +97,7 @@ export {
   porthtml,
   bmi,
   weather,
+  fashion,
 
   contem,
   raga,
@@ -111,4 +119,10 @@ export {
   winquest,
   iit_roorki,
 
+  danfit_client,
+  pragya_client,
+  fashionup_client,
+  winquest_client,
+  iit_roorki_client,
+  vidmate_client
 };

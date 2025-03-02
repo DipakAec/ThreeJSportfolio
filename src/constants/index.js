@@ -19,6 +19,7 @@ import {
     bmi,
     weather,
     porthtml,
+    fashion,
 
     threejs,
     mbs,
@@ -48,8 +49,14 @@ import {
     winquest,
     iit_roorki,
 
+    danfit_client,
+    pragya_client,
+    fashionup_client,
+    winquest_client,
+    iit_roorki_client,
+    vidmate_client
   } from "../assets";
-  
+
   export const navLinks = [
     {
       id: "about",
@@ -73,87 +80,144 @@ import {
       title: "Contact",
     },
   ];
-  
-  const services = [
+  const clients = [
     {
-      title: "Websites",
-      icon: web,
+      title: "Danfit",
+      icon: danfit_client, // Existing client logo
     },
     {
-      title: "Web Aplications",
-      icon: mobile,
+      title: "Pragya",
+      icon: pragya_client, // Existing client logo
     },
     {
-      title: "WordPress & E-commerce",
-      icon: backend,
+      title: "FashionUp",
+      icon: fashionup_client, // Existing client logo
     },
     {
-      title: "Hosting",
-      icon: creator,
+      title: "Winquest",
+      icon: winquest_client, // Existing client logo
+    },
+    {
+      title: "IIT Roorkee",
+      icon: iit_roorki_client, // Existing client logo
+    },
+    {
+      title: "Vidmate",
+      icon: vidmate_client, // New client logo
     },
   ];
   
-  const technologies = [
+  // const services = [
+  //   {
+  //     title: "Websites",
+  //     icon: web,
+  //   },
+  //   {
+  //     title: "Web Aplications",
+  //     icon: mobile,
+  //   },
+  //   {
+  //     title: "WordPress & E-commerce",
+  //     icon: backend,
+  //   },
+  //   {
+  //     title: "Hosting",
+  //     icon: creator,
+  //   },
+  // ];
+  const services = [
     {
-      name: "ci",
+      title: "Projects",
+      icon: web, // add an icon path here if needed
+      value: "30+", // Value you want to display (e.g., Projects count)
+    },
+    {
+      title: "Clients",
+      icon: mobile, // add an icon path here if needed
+      value: "8+", // Number of satisfied clients
+    },
+    {
+      title: "Jobs",
+      icon: backend, // add an icon path here if needed
+      value: "3", // Number of jobs done
+    },
+    {
+      title: "Lines of Code",
+      icon: creator, // add an icon path here if needed
+      value: "50000+", // Lines of code written
+    },
+  ];
+  
+  
+ const technologies = [
+    {
+      name: "Laravel",
+      icon: laravel,
+      category: "backend",
+      percentage: 85,
+    },
+    {
+      name: "CI",
       icon: ci,
+      category: "backend",
+      percentage: 75,
     },
     {
-      name: "php",
+      name: "PHP",
       icon: php,
+      category: "backend",
+      percentage: 80,
     },
-    
     {
-      name: "mysql",
+      name: "MySQL",
       icon: mysql,
+      category: "backend",
+      percentage: 90,
     },
     {
       name: "PostgreSQL",
       icon: post,
+      category: "backend",
+      percentage: 80,
     },
     {
       name: "JavaScript",
       icon: javascript,
+      category: "frontend",
+      percentage: 90,
     },
-
     {
       name: "React JS",
       icon: reactjs,
+      category: "frontend",
+      percentage: 85,
     },
-    {
-      name: "Laravel",
-      icon: laravel,
-    },
-  
     {
       name: "HTML 5",
       icon: html,
+      category: "frontend",
+      percentage: 95,
     },
     {
       name: "CSS 3",
       icon: css,
-    },
-    {
-      name: "Wordpress",
-      icon: wordpress,
+      category: "frontend",
+      percentage: 90,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
+      category: "frontend",
+      percentage: 85,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
+      category: "tools",
+      percentage: 95,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    
-
-   
-
   ];
+  
   
   const experiences = [
     {
@@ -568,8 +632,11 @@ import {
   const projects = [
     {
       name: "React Weather App",
+      
+      
       description:
-        "React Weather App is a web app built on React JSand TailwindCSS. Used open-weather API to getweather. Users can search for the weather by place.",
+     "React Weather App is a web application built with React JS and styled using TailwindCSS. It integrates the OpenWeather API to fetch real-time weather data. Users can easily search for the weather of any location, view current conditions, and forecast details.",
+        // "React Weather App is a web app built on React JSand TailwindCSS. Used open-weather API to getweather. Users can search for the weather by place.",
       tags: [
         {
           name: "React JS",
@@ -588,12 +655,33 @@ import {
       source_code_link: "https://github.com/DipakAec/React-Weather-App",
       website_link: "https://dipakaec.github.io/React-Weather-App",
     },
+    {
+      name: "Fashion",
+      description: "Fashion is a modern web app built using Next.js and styled with TailwindCSS. The template provides a sleek and responsive e-commerce layout, ready to integrate with a backend for product management, shopping cart, and checkout functionalities.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient"
+        },
+        {
+          name: "TailwindCSS",
+          color: "pink-text-gradient"
+        },
+        {
+          name: "E-Commerce",
+          color: "green-text-gradient"
+        }
+      ],
+      image: fashion,
+      source_code_link: "https://github.com/DipakAec/fasion-ecommerce",
+      website_link: "https://fasion-ecommerce-eight.vercel.app/"
+    },    
 
     {
       name: "Movie Search",
       description:
-        "React Movie Search App is a movie search web appbuilt on React JS and tailwind CSS. I used themoviedb API for searching movies.",
-      tags: [
+       "React Movie Search App is a web application built with React JS and Tailwind CSS. It allows users to search for movies by integrating with TheMovieDB API, providing details such as movie titles, release dates, ratings, and more with a intuitive and responsive interface for a seamless experience.",
+     tags: [
         {
           name: "React JS",
           color: "blue-text-gradient",
@@ -615,7 +703,7 @@ import {
     {
       name: "BMI Calculetor",
       description:
-        "BMI calculator is a BMI calculating web app that cancalculate the BMI of a person by using the Heightand Weight of that person and can give results.",
+        "BMI Calculator is a web application designed to calculate the Body Mass Index (BMI) of an individual. By entering a person's height and weight, the app computes their BMI and provides results, helping users understand their health status based on BMI categories such as underweight, normal weight, overweight, and obesity.",
       tags: [
         {
           name: "React JS",
@@ -822,4 +910,4 @@ import {
 
   ];
   
-  export { services, technologies, experiences, jobs, projects, freelances };
+  export { services, technologies,clients, experiences, jobs, projects, freelances };

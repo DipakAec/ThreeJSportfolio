@@ -8,12 +8,13 @@ import Works from './Works';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
 import Freelance from './Freelance';
-
+import Client from './Client'
 export {
   Hero,
   Navbar,
   About,
   Tech,
+  Client,
   Experience,
   Works,
   Portfolio,
