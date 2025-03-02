@@ -137,9 +137,9 @@ import {
       value: "8+", // Number of satisfied clients
     },
     {
-      title: "Jobs",
+      title: "Experience Year",
       icon: backend, // add an icon path here if needed
-      value: "3", // Number of jobs done
+      value: "3+", // Number of jobs done
     },
     {
       title: "Lines of Code",
