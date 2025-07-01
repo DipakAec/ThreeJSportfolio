@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom"
 
-import {About,Client, Contact,Experience,Hero,Navbar,Tech,Works,StarsCanvas,Portfolio,Freelance} from './components'
+import {About,Client, Contact,Experience,Hero,Navbar,Tech,Works,StarsCanvas,Portfolio,Freelance,WhatsAppButton} from './components'
 
 
 
@@ -25,7 +25,7 @@ const App=()=> {
           <Contact/>
           <StarsCanvas/>
         </div>
-
+      <WhatsAppButton /> 
       </div>
 
     </BrowserRouter>

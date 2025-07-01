@@ -8,7 +8,10 @@ import Works from './Works';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
 import Freelance from './Freelance';
-import Client from './Client'
+import Client from './Client';
+import WhatsAppButton from './WhatsAppButton';
+
+
 export {
   Hero,
   Navbar,
@@ -20,8 +23,9 @@ export {
   Portfolio,
   Freelance,
   Contact,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
+  WhatsAppButton,
+  EarthCanvas,
+  BallCanvas,
+  ComputersCanvas,
   StarsCanvas
-}
+};

@@ -87,15 +87,16 @@ const About = () => {
     <h2 className={styles.sectionHeadText}>Overviews</h2>
     </motion.div>
     <motion.p
-    variants={fadeIn("","",0.1,1)}
-    className='mt-4 text-secondary text-[18px] max-w-6xl leading-[30px]'
-    >
-    Hi, I'm Dipak Kumar Paul, a Software/Web Developer based in Kolkata, India. Currently, I work at <a class='font-semibold text-white-100' href="https://smsolutions.in/">SM Solutions</a> where I leverage my skills in PHP framework Laravel, MySQL, JavaScript,JQuery, HTML, CSS and Bootstrap to craft high-quality web applications and websites.
-<br /> <br /> Previously, I worked at <a class='font-semibold text-white-100' href="https://www.albatrossoft.com/">Albatross Software Services Pvt. Ltd.</a>, where I utilised my skills in PHP framework Laravel, CodeIgniter, MySQL, PostgreSQL, JavaScript,JQuery, HTML, CSS and Bootstrap to create top-notch web applications.
-<br /> <br /> I also worked at <a class='font-semibold text-white-100' href="https://mindbrewstudio.com/">MindBrew Studio</a>, where I used my expertise in HTML, CSS, JavaScript, React JS, PHP, MySQL, and WordPress to develop high-quality websites and web applications.
-<br /> <br /> Throughout my career, I've acquired valuable experience developing responsive and user-friendly websites that provide an exceptional user experience. I'm passionate about staying up-to-date with the latest web development trends and technologies, enabling me to incorporate innovative solutions into my work.
+  variants={fadeIn("", "", 0.1, 1)}
+  className='mt-4 text-secondary text-[18px] max-w-6xl leading-[30px]'
+>
+  Hi, I'm Dipak Kumar Paul, a Software/Web Developer based in Kolkata, India. Currently, I working at <a class='font-semibold text-white-100' href="https://www.sustechengineering.au/">Sustech Engineering Pvt Ltd</a>, where I contribute to dynamic web applications using React.js for frontend development and Laravel (PHP) for backend services, collaborating through GitLab and CI/CD pipelines.
+  <br /> <br /> Previously, I worked at <a class='font-semibold text-white-100' href="https://smsolutions.in/">SM Solutions</a> where I leveraged my skills in PHP framework Laravel, MySQL, JavaScript, JQuery, HTML, CSS, and Bootstrap to craft high-quality web applications and websites.
+  <br /> <br /> I also worked at <a class='font-semibold text-white-100' href="https://www.albatrossoft.com/">Albatross Software Services Pvt. Ltd.</a>, where I utilised my skills in PHP framework Laravel, CodeIgniter, MySQL, PostgreSQL, JavaScript, JQuery, HTML, CSS, and Bootstrap to create top-notch web applications.
+  <br /> <br /> Earlier in my career, I was part of <a class='font-semibold text-white-100' href="https://mindbrewstudio.com/">MindBrew Studio</a>, where I used my expertise in HTML, CSS, JavaScript, React JS, PHP, MySQL, and WordPress to develop high-quality websites and web applications.
+  <br /> <br /> Throughout my journey, I've acquired valuable experience developing responsive and user-friendly websites that provide an exceptional user experience. I'm passionate about staying up-to-date with the latest web development trends and technologies, enabling me to incorporate innovative solutions into my work.
+</motion.p>
 
-   </motion.p>
    <motion.div>
       {/* This container holds the flexbox layout for the service cards */}
       <div className="mt-20 flex flex-wrap gap-10 justify-center">

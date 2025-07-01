@@ -22,10 +22,13 @@ import laravel from "./tech/laravel.png";
 import wordpress from "./tech/wordpress.png"
 import shopify from "./company/shopify.png";
 import website from "./website.png"
-
+import gitlab from "./gitlab.png";
+import jira from "./jira.png"
+import whatsapp from "./whatsapp.png"
 import mbs from "./company/mbs.png"
 import alb from "./company/alb.png"
 import smsol from "./company/smsol.png"
+import sustech from "./company/sustech.png"
 
 
 import port from "./project/port.png";
@@ -34,7 +37,7 @@ import mov from "./project/mov.png";
 import weather from "./project/weather.png";
 import bmi from "./project/bmi.png";
 import fashion from "./project/fashion_next.png";
-
+import cryptoplus from "./project/cryptoplus.png"
 import contem from "./portfolio/contem.png"
 import raga from "./portfolio/raga.png"
 import mbsw from "./portfolio/mbsw.png"
@@ -47,6 +50,8 @@ import hda from "./portfolio/hda.png"
 import tea from "./portfolio/tea.png"
 import tefal from "./portfolio/tefal.png"
 import lmhi from "./portfolio/lmhi.png"
+import freshtoo from "./portfolio/freshtoo.png"
+import hourglass from "./portfolio/hourglass.png"
 
 import danfit from "./freelance/danfit.png"
 import fashionup from "./freelance/fashionup.png"
@@ -75,7 +80,7 @@ export {
   css,
   php,
   mysql,
-  git,
+  git,gitlab,jira,
   html,
   javascript,
   wordpress,
@@ -86,11 +91,13 @@ export {
   ci,
   post,
   laravel,
+  whatsapp,
 
   mbs,
   alb,
   smsol,
-
+  sustech,
+  
   website,
   mov,
   port,
@@ -98,6 +105,7 @@ export {
   bmi,
   weather,
   fashion,
+  cryptoplus,
 
   contem,
   raga,
@@ -111,6 +119,8 @@ export {
   tea,
   tefal,
   lmhi,
+  freshtoo,
+  hourglass,
 
 
   danfit,

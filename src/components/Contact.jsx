@@ -24,15 +24,19 @@ const Contact = () => {
   const handelSubmit =(e) => {
     e.preventDefault()
     setLoading(true)
-    emailjs.send('service_2w82hmp','template_dc99dqi',
-    {
-      from_name:form.name,
-      to_name:'Dipak',
-      from_email:form.email,
-      to_email:'pauldipakkr@gmil.com',
-      message:form.message
-    },'5tJkrDVmYllRswhYi'
-    )
+    emailjs.send(
+  'service_2w82hmp',
+  'template_dc99dqi',
+  {
+    from_name: form.name,
+    to_name: 'Dipak',
+    from_email: form.email,
+    to_email: 'pauldipakkr@gmail.com',
+    message: form.message,
+  },
+  '5tJkrDVmYllRswhYi' // ✅ This should be your PUBLIC key
+)
+
     .then(
       () => {
         setLoading(false);
@@ -61,7 +65,8 @@ const Contact = () => {
       <motion.div
       variants={slideIn("left","tween",0.2,1)}
       className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
-      >
+
+     >
         <p className={styles.sectionSubText}>Get in Touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
         <form
@@ -116,23 +121,24 @@ const Contact = () => {
 
           <button
           type='submit'
-          className='bg-tertiary  py-3 px-8
-          outline-none w-fit text-white font-bold
-          shadow-md shadow-primary roundex-xl'
+          className='bg-tertiary py-3 px-8 text-white font-bold shadow-[0_0_15px_rgba(255,255,255,0.4)] rounded-xl'
           >
               {loading ? 'sending..' : 'sent Message'}
           </button>
         </form>
         <ul className='pt-5 flex items-stretch gap-3'>
-            <li className='bg-green-600 py-3 px-8
-          outline-none w-fit text-white font-bold
-          shadow-md shadow-primary roundex-xl'><a href="https://wa.me/+918967671041" target='_blank'>WhatsApp</a></li>
-            <li className='bg-cyan-500  py-3 px-8
-          outline-none w-fit text-white font-bold
-          shadow-md shadow-primary roundex-xl'><a href="https://www.linkedin.com/in/dipak-kumar-paul-368379128/" target='_blank'>Linked In</a></li>
-            <li className='bg-tertiary  py-3 px-8
-          outline-none w-fit text-white font-bold
-          shadow-md shadow-primary roundex-xl'><a href="https://github.com/DipakAec" target='_blank'>GitHub</a></li>
+           <li className='bg-green-600 py-3 px-8 text-white font-bold shadow-[0_0_15px_rgba(34,197,94,0.6)] rounded-xl'>
+  <a href="https://wa.me/+918967671041" target='_blank'>WhatsApp</a>
+</li>
+
+<li className='bg-cyan-500 py-3 px-8 text-white font-bold shadow-[0_0_15px_rgba(255,155,255,0.4)] rounded-xl'>
+  <a href="https://www.linkedin.com/in/dipak-kumar-paul-368379128/" target='_blank'>Linked In</a>
+</li>
+
+<li className='bg-tertiary py-3 px-8 text-white font-bold shadow-[0_0_15px_rgba(255,255,255,0.4)] rounded-xl'>
+  <a href="https://github.com/DipakAec" target='_blank'>GitHub</a>
+</li>
+
           </ul>
       </motion.div>
 

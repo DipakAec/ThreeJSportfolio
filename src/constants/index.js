@@ -8,7 +8,7 @@ import {
     css,
     reactjs,
     tailwind,
-    git,
+    git,github,jira,gitlab,
     shopify,
     post,
     laravel,
@@ -20,11 +20,14 @@ import {
     weather,
     porthtml,
     fashion,
+cryptoplus,
 
     threejs,
     mbs,
     alb,
     smsol,
+    sustech,
+
     mysql,
     wordpress,
     php,
@@ -42,6 +45,8 @@ import {
     tea,
     tefal,
     lmhi,
+    freshtoo,
+    hourglass,
 
     danfit,
     pragya,
@@ -216,16 +221,47 @@ import {
       category: "tools",
       percentage: 95,
     },
+     {
+      name: "GitHub",
+      icon: github,
+      category: "tools",
+      percentage: 95,
+    },
+    {
+      name: "GitLab",
+      icon: gitlab,
+      category: "tools",
+      percentage: 95,
+    },
+    {
+      name: "Jira",
+      icon: jira,
+      category: "tools",
+      percentage: 95,
+    },
   ];
   
   
   const experiences = [
     {
+      title: "Jr. Software Engineer",
+      company_name: "Sustech Engineering Pvt Ltd",
+      icon: sustech,
+      iconBg: "#7da28c",
+      date: "April 2025 - Present",
+      points: [
+        "Developing interactive and reusable UI components using React.js with a focus on performance and scalability.",
+        "Building and maintaining backend services and RESTful APIs using Laravel and MySQL to support robust web applications.",
+        "Managing source code and collaborating on features and fixes through GitLab with CI/CD workflows.",
+        "Contributing to the full development lifecycle — from planning and coding to testing and deployment."
+      ],
+    },    
+    {
       title: "Web & Laravel Developer",
       company_name: "SM Solutions",
       icon: smsol,
       iconBg: "#9096ad",
-      date: " June 2024 - Present",
+      date: " June 2024 - April 2025",
       points: [
         "Developing and maintaining web applications and Websites in MVC architecture to meet client and project requirements.",
         "Developing and maintaining dynamic Websites and Web applications using Laravel(PHP), MySQL, JQuery, JavaScript and AJAX.",
@@ -266,7 +302,67 @@ import {
   ];
   
   const jobs = [
+    {
+  name: "Hourglass",
+  description: "Hourglass is a business management app that streamlines project quoting, workflows, and payroll, centralizing operations in one platform.",
 
+  tags: [
+    {
+      name: "Laravel",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "MySQL",
+      color: "green-text-gradient",
+    },
+    {
+      name: "PHP",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "JQuery",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "MVC Architechture",
+      color: "green-text-gradient",
+    },
+  ],
+  image: hourglass,
+  website_link: "https://hourglass.sustech.net.au/", // Replace with actual link if different
+  role: "Maintenance & Feature Enhancements"
+}
+,
+{
+  name: "FreshToo",
+  description:
+    "FreshToo is a platform designed to support e-commerce and mobile applications. It includes an admin panel for managing online orders, product listings, user management, and APIs for seamless integration with mobile apps.",
+  tags: [
+    {
+      name: "Laravel",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "MySQL",
+      color: "green-text-gradient",
+    },
+    {
+      name: "PHP",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "JQuery",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "MVC Architechture",
+      color: "green-text-gradient",
+    },
+  ],
+  image: freshtoo,
+  website_link: "#", // Replace with actual link if different
+  role: "Development"
+},
     {
       name: "Tefal",
       description:
@@ -295,7 +391,7 @@ import {
 
       ],
       image: tefal,
-      website_link: "#/",
+      website_link: "https://tefal.in/",
       role: "Development"
     },
 
@@ -677,6 +773,28 @@ import {
       website_link: "https://fasion-ecommerce-eight.vercel.app/"
     },    
 
+{
+  name: "CryptoPulse",
+  description:
+    "CryptoPulse is a modern cryptocurrency tracking app that allows users to stay updated with real-time prices, market data, and trends for their favorite cryptocurrencies. Built with React and powered by the CoinGecko API, it delivers all the insights needed to make informed decisions.",
+  tags: [
+    {
+      name: "React JS",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "CoinGecko API",
+      color: "green-text-gradient",
+    },
+    {
+      name: "tailwind",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: cryptoplus, // replace 'crypto' with the appropriate image import or path
+  source_code_link: "https://github.com/DipakAec/CryptoPulse",
+  website_link: "https://crypto-pulse-25.netlify.app/",
+},
     {
       name: "Movie Search",
       description:
